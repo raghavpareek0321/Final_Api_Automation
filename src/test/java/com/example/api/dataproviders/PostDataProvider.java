@@ -11,7 +11,7 @@ public class PostDataProvider {
 
     @DataProvider(name = "postData")
     public static Iterator<Object[]> providePostData() {
-        List<Map<String, Object>> data = TestDataLoader.loadJsonArray("test/posts.json");
+        List<Map<String, Object>> data = TestDataLoader.loadJsonArray("testdata/posts.json");
 
         return data.stream()
                 .map(entry -> new Object[]{entry})

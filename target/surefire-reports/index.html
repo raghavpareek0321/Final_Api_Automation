@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -113,12 +113,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.api.tests.GetPostTest" class="method navigator-link" hash-for-method="testGetPostById">testGetPostById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="com.example.api.tests.DataDrivenGetPostTest" class="method navigator-link" hash-for-method="testGetPostById({id=2, expectedTitle=qui est esse})">testGetPostById({id=2, expectedTitle=qui est esse})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.api.tests.GetPostTest" class="method navigator-link" hash-for-method="testGetPostById">testGetPostById</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.example.api.tests.SchemaValidationTest" class="method navigator-link" hash-for-method="testPostSchemaValidation">testPostSchemaValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -221,6 +226,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.api.tests.SchemaValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPostSchemaValidation">
+                  </a> <!-- testPostSchemaValidation -->
+                  <span class="method-name">testPostSchemaValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -237,6 +257,7 @@
       &lt;class name=&quot;com.example.api.tests.DataDrivenGetPostTest&quot;/&gt;
       &lt;class name=&quot;com.example.api.tests.GetPostTest&quot;/&gt;
       &lt;class name=&quot;com.example.api.tests.PostDataDrivenTest&quot;/&gt;
+      &lt;class name=&quot;com.example.api.tests.SchemaValidationTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -250,7 +271,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (5 classes)</span>
+                <span class="test-name">Surefire test (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -276,36 +297,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testGetPostById')
 data.setCell(0, 2, 'com.example.api.tests.DataDrivenGetPostTest')
-data.setCell(0, 3, 2337);
+data.setCell(0, 3, 2450);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testGetPostById')
-data.setCell(1, 2, 'com.example.api.tests.DataDrivenGetPostTest')
-data.setCell(1, 3, 608);
+data.setCell(1, 1, 'testPostSchemaValidation')
+data.setCell(1, 2, 'com.example.api.tests.SchemaValidationTest')
+data.setCell(1, 3, 717);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testPostsWithData')
 data.setCell(2, 2, 'com.example.api.tests.PostDataDrivenTest')
-data.setCell(2, 3, 597);
+data.setCell(2, 3, 541);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testPostsWithData')
-data.setCell(3, 2, 'com.example.api.tests.PostDataDrivenTest')
-data.setCell(3, 3, 532);
+data.setCell(3, 1, 'testGetPostById')
+data.setCell(3, 2, 'com.example.api.tests.GetPostTest')
+data.setCell(3, 3, 527);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testGetPostById')
-data.setCell(4, 2, 'com.example.api.tests.GetPostTest')
-data.setCell(4, 3, 489);
+data.setCell(4, 2, 'com.example.api.tests.DataDrivenGetPostTest')
+data.setCell(4, 3, 480);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'sanity')
-data.setCell(5, 2, 'com.example.api.SanityCheckTest')
-data.setCell(5, 3, 56);
+data.setCell(5, 1, 'testPostsWithData')
+data.setCell(5, 2, 'com.example.api.tests.PostDataDrivenTest')
+data.setCell(5, 3, 477);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'sanity')
+data.setCell(6, 2, 'com.example.api.SanityCheckTest')
+data.setCell(6, 3, 46);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -339,39 +364,46 @@ return data;
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.api.tests.DataDrivenGetPostTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup</span>
-                <span class="method-start">123 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testGetPostById({id=1, expectedTitle=sunt aut facere repellat provident occaecati excepturi optio reprehenderit})</span>
-                <span class="method-start">646 ms</span>
+                <span class="method-start">256 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetPostById({id=2, expectedTitle=qui est esse})</span>
-                <span class="method-start">2990 ms</span>
+                <span class="method-start">2711 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.api.tests.GetPostTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">3600 ms</span>
+                <span class="method-start">3193 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testGetPostById</span>
-                <span class="method-start">3600 ms</span>
+                <span class="method-start">3202 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.api.tests.PostDataDrivenTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testPostsWithData({id=1, expectedTitle=sunt aut facere repellat provident occaecati excepturi optio reprehenderit})</span>
-                <span class="method-start">4089 ms</span>
+                <span class="method-start">3733 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testPostsWithData({id=2, expectedTitle=qui est esse})</span>
-                <span class="method-start">4689 ms</span>
+                <span class="method-start">4212 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.api.tests.SchemaValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4755 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testPostSchemaValidation</span>
+                <span class="method-start">4756 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

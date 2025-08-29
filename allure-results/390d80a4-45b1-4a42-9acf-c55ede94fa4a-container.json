@@ -1,0 +1,1 @@
+{"uuid":"390d80a4-45b1-4a42-9acf-c55ede94fa4a","name":"com.example.api.tests.SchemaValidationTest","children":["18463dc0-26e9-4468-819c-a0c69c9be724"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1756289853464,"stop":1756289853464}],"afters":[],"start":1756289848795,"stop":1756289854250}

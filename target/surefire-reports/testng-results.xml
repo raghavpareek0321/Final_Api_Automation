@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-22T18:04:23 IST" name="Surefire suite" finished-at="2025-08-22T18:04:28 IST" duration-ms="5282">
+  <suite started-at="2025-08-29T17:51:15 IST" name="Surefire suite" finished-at="2025-08-29T17:51:21 IST" duration-ms="5513">
     <groups>
     </groups>
-    <test started-at="2025-08-22T18:04:23 IST" name="Surefire test" finished-at="2025-08-22T18:04:28 IST" duration-ms="5282">
+    <test started-at="2025-08-29T17:51:15 IST" name="Surefire test" finished-at="2025-08-29T17:51:21 IST" duration-ms="5513">
       <class name="com.example.api.tests.DataDrivenGetPostTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.api.tests.DataDrivenGetPostTest@28dcca0c]" started-at="2025-08-22T18:04:23 IST" name="setup" finished-at="2025-08-22T18:04:23 IST" duration-ms="358" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testGetPostById(java.util.Map)[pri:0, instance:com.example.api.tests.DataDrivenGetPostTest@28dcca0c]" started-at="2025-08-22T18:04:23 IST" name="testGetPostById" data-provider="postData" finished-at="2025-08-22T18:04:26 IST" duration-ms="2337" status="PASS">
+        <test-method signature="testGetPostById(java.util.Map)[pri:0, instance:com.example.api.tests.DataDrivenGetPostTest@61c4eee0]" started-at="2025-08-29T17:51:15 IST" name="testGetPostById" data-provider="postData" finished-at="2025-08-29T17:51:18 IST" duration-ms="2450" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetPostById -->
-        <test-method signature="testGetPostById(java.util.Map)[pri:0, instance:com.example.api.tests.DataDrivenGetPostTest@28dcca0c]" started-at="2025-08-22T18:04:26 IST" name="testGetPostById" data-provider="postData" finished-at="2025-08-22T18:04:26 IST" duration-ms="608" status="PASS">
+        <test-method signature="testGetPostById(java.util.Map)[pri:0, instance:com.example.api.tests.DataDrivenGetPostTest@61c4eee0]" started-at="2025-08-29T17:51:18 IST" name="testGetPostById" data-provider="postData" finished-at="2025-08-29T17:51:18 IST" duration-ms="480" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,18 +30,28 @@
           </reporter-output>
         </test-method> <!-- testGetPostById -->
       </class> <!-- com.example.api.tests.DataDrivenGetPostTest -->
-      <class name="com.example.api.tests.GetPostTest">
-        <test-method signature="testGetPostById()[pri:0, instance:com.example.api.tests.GetPostTest@45d84a20]" started-at="2025-08-22T18:04:26 IST" name="testGetPostById" finished-at="2025-08-22T18:04:27 IST" duration-ms="489" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetPostById -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.api.tests.GetPostTest@45d84a20]" started-at="2025-08-22T18:04:26 IST" name="setup" finished-at="2025-08-22T18:04:26 IST" duration-ms="0" status="PASS">
+      <class name="com.example.api.tests.SchemaValidationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.api.tests.SchemaValidationTest@548a24a]" started-at="2025-08-29T17:51:20 IST" name="setup" finished-at="2025-08-29T17:51:20 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
+        <test-method signature="testPostSchemaValidation()[pri:0, instance:com.example.api.tests.SchemaValidationTest@548a24a]" started-at="2025-08-29T17:51:20 IST" name="testPostSchemaValidation" finished-at="2025-08-29T17:51:21 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostSchemaValidation -->
+      </class> <!-- com.example.api.tests.SchemaValidationTest -->
+      <class name="com.example.api.tests.GetPostTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.api.tests.GetPostTest@6f10d5b6]" started-at="2025-08-29T17:51:18 IST" name="setup" finished-at="2025-08-29T17:51:18 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetPostById()[pri:0, instance:com.example.api.tests.GetPostTest@6f10d5b6]" started-at="2025-08-29T17:51:18 IST" name="testGetPostById" finished-at="2025-08-29T17:51:19 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostById -->
       </class> <!-- com.example.api.tests.GetPostTest -->
       <class name="com.example.api.tests.PostDataDrivenTest">
-        <test-method signature="testPostsWithData(java.util.Map)[pri:0, instance:com.example.api.tests.PostDataDrivenTest@52f27fbd]" started-at="2025-08-22T18:04:27 IST" name="testPostsWithData" data-provider="postData" finished-at="2025-08-22T18:04:27 IST" duration-ms="597" status="PASS">
+        <test-method signature="testPostsWithData(java.util.Map)[pri:0, instance:com.example.api.tests.PostDataDrivenTest@1040be71]" started-at="2025-08-29T17:51:19 IST" name="testPostsWithData" data-provider="postData" finished-at="2025-08-29T17:51:19 IST" duration-ms="477" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostsWithData -->
-        <test-method signature="testPostsWithData(java.util.Map)[pri:0, instance:com.example.api.tests.PostDataDrivenTest@52f27fbd]" started-at="2025-08-22T18:04:27 IST" name="testPostsWithData" data-provider="postData" finished-at="2025-08-22T18:04:28 IST" duration-ms="532" status="PASS">
+        <test-method signature="testPostsWithData(java.util.Map)[pri:0, instance:com.example.api.tests.PostDataDrivenTest@1040be71]" started-at="2025-08-29T17:51:19 IST" name="testPostsWithData" data-provider="postData" finished-at="2025-08-29T17:51:20 IST" duration-ms="541" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +75,7 @@
         </test-method> <!-- testPostsWithData -->
       </class> <!-- com.example.api.tests.PostDataDrivenTest -->
       <class name="com.example.api.SanityCheckTest">
-        <test-method signature="sanity()[pri:0, instance:com.example.api.SanityCheckTest@723ca036]" started-at="2025-08-22T18:04:23 IST" name="sanity" finished-at="2025-08-22T18:04:23 IST" duration-ms="56" status="PASS">
+        <test-method signature="sanity()[pri:0, instance:com.example.api.SanityCheckTest@35841320]" started-at="2025-08-29T17:51:15 IST" name="sanity" finished-at="2025-08-29T17:51:15 IST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sanity -->
